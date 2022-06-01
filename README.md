@@ -1,1 +1,1 @@
-# MP.Demo.Blazor_State
+# MP.BlazorStateDemo
