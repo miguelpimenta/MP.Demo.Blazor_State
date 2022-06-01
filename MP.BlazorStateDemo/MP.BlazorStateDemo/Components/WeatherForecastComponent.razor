@@ -1,0 +1,28 @@
+﻿<div style="overflow: auto; height: 600px; width: 700px; margin: 20px;">
+
+    <Virtualize ItemsProvider="LoadForecasts" 
+                Context="forecast" 
+                ItemSize="10">  
+
+        <ItemContent>
+            <article>
+                <CardComponent Title=@forecast.Summary>                
+                    <div>@forecast.TemperatureC</div>
+                    <div>@forecast.TemperatureF</div>
+                    <div style="color: coral;">@forecast.Date.ToShortDateString()</div>
+                </CardComponent>
+            </article>
+        </ItemContent>
+        <Placeholder>
+            <article>
+                <CardComponent Title="Loading...">                
+                    <div>...</div>
+                    <div>...</div>
+                    <div>...</div>
+                </CardComponent>
+            </article>
+        </Placeholder>
+
+    </Virtualize>
+
+</div>
