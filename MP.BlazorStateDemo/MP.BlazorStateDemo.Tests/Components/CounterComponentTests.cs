@@ -41,7 +41,7 @@ public class CounterComponentTests : TestContext
     }
 
     [Fact(DisplayName = "Check HTML Markup"), Order(2),]
-    public void CheckHtmlMarkut()
+    public void CheckHtmlMarkup()
     {
         using var ctx = GetTestContext();
 
