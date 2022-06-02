@@ -3,24 +3,37 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.1.32414.318
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MP.BlazorStateDemo", "MP.BlazorStateDemo\MP.BlazorStateDemo.csproj", "{B0B70095-7DBE-4D4E-A7EC-A4759FE6CC19}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MP.BlazorStateDemo", "MP.BlazorStateDemo\MP.BlazorStateDemo.csproj", "{B0B70095-7DBE-4D4E-A7EC-A4759FE6CC19}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MP.BlazorStateDemo.Tests", "MP.BlazorStateDemo.Tests\MP.BlazorStateDemo.Tests.csproj", "{F4105474-EFC6-4ABF-83C6-E4277C8024D9}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MP.BlazorStateDemo.Tests", "MP.BlazorStateDemo.Tests\MP.BlazorStateDemo.Tests.csproj", "{F4105474-EFC6-4ABF-83C6-E4277C8024D9}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MP.BlazorStateDemo.IntegrationTests", "MP.BlazorStateDemo.IntegrationTests\MP.BlazorStateDemo.IntegrationTests.csproj", "{DF05FBEA-7C1E-4758-8F65-A68A288FD2E7}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
+		ReduxDevToolsEnabled|Any CPU = ReduxDevToolsEnabled|Any CPU
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
 		{B0B70095-7DBE-4D4E-A7EC-A4759FE6CC19}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{B0B70095-7DBE-4D4E-A7EC-A4759FE6CC19}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B0B70095-7DBE-4D4E-A7EC-A4759FE6CC19}.ReduxDevToolsEnabled|Any CPU.ActiveCfg = Release|Any CPU
+		{B0B70095-7DBE-4D4E-A7EC-A4759FE6CC19}.ReduxDevToolsEnabled|Any CPU.Build.0 = Release|Any CPU
 		{B0B70095-7DBE-4D4E-A7EC-A4759FE6CC19}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B0B70095-7DBE-4D4E-A7EC-A4759FE6CC19}.Release|Any CPU.Build.0 = Release|Any CPU
 		{F4105474-EFC6-4ABF-83C6-E4277C8024D9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{F4105474-EFC6-4ABF-83C6-E4277C8024D9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F4105474-EFC6-4ABF-83C6-E4277C8024D9}.ReduxDevToolsEnabled|Any CPU.ActiveCfg = Release|Any CPU
+		{F4105474-EFC6-4ABF-83C6-E4277C8024D9}.ReduxDevToolsEnabled|Any CPU.Build.0 = Release|Any CPU
 		{F4105474-EFC6-4ABF-83C6-E4277C8024D9}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{F4105474-EFC6-4ABF-83C6-E4277C8024D9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DF05FBEA-7C1E-4758-8F65-A68A288FD2E7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DF05FBEA-7C1E-4758-8F65-A68A288FD2E7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DF05FBEA-7C1E-4758-8F65-A68A288FD2E7}.ReduxDevToolsEnabled|Any CPU.ActiveCfg = ReduxDevToolsEnabled|Any CPU
+		{DF05FBEA-7C1E-4758-8F65-A68A288FD2E7}.ReduxDevToolsEnabled|Any CPU.Build.0 = ReduxDevToolsEnabled|Any CPU
+		{DF05FBEA-7C1E-4758-8F65-A68A288FD2E7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DF05FBEA-7C1E-4758-8F65-A68A288FD2E7}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

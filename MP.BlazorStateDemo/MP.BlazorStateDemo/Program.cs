@@ -1,15 +1,11 @@
-using BlazorState;
-using MediatR;
 using Microsoft.AspNetCore.Components.Web;
 using Microsoft.AspNetCore.Components.WebAssembly.Hosting;
 using MP.BlazorStateDemo;
-using MP.BlazorStateDemo.Core.Application.Behaviors;
-using MudBlazor.Services;
 using Serilog;
 using System.Reflection;
 
 var builder = WebAssemblyHostBuilder
-    .CreateDefault(args);
+        .CreateDefault(args);
 
 builder.RootComponents
     .Add<App>("#app");
@@ -20,12 +16,12 @@ var config = builder.Configuration;
 
 Log.Logger = new LoggerConfiguration()
 #if DEBUG
-    .MinimumLevel.Debug()
-    .WriteTo.BrowserConsole()
+.MinimumLevel.Debug()
+.WriteTo.BrowserConsole()
 #else
     //...
 #endif
-    .CreateLogger();
+.CreateLogger();
 
 builder.Services
     .AddSingleton(Log.Logger);
@@ -74,6 +70,7 @@ builder.Services
 var host = builder
     .Build()
     .RunAsync();
+
 
 public partial class Program
 { }
