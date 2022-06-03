@@ -19,7 +19,7 @@ public class TestingConvention : Discovery, Execution, IDisposable
     const string TestPostfix = "Tests";
     private readonly IServiceScopeFactory ServiceScopeFactory;
     private HttpClient ServerHttpClient;
-    private WebApplicationFactory<MP.BlazorStateDemo.Program> ServerWebApplicationFactory;
+    private WebApplicationFactory<Program> ServerWebApplicationFactory;
 
     public TestingConvention()
     {
@@ -55,7 +55,7 @@ public class TestingConvention : Discovery, Execution, IDisposable
 
     private void ConfigureTestServices(ServiceCollection aServiceCollection)
     {
-        ServerWebApplicationFactory = new WebApplicationFactory<MP.BlazorStateDemo.Program>();
+        ServerWebApplicationFactory = new WebApplicationFactory<Program>();
         ServerHttpClient = ServerWebApplicationFactory.CreateClient();
 
         ConfigureWebAssemblyHost(aServiceCollection);
@@ -100,7 +100,7 @@ public class TestingConvention : Discovery, Execution, IDisposable
           aOptions => aOptions.Assemblies =
           new Assembly[]
           {
-              typeof(MP.BlazorStateDemo.Program).GetTypeInfo().Assembly
+              typeof(Program).GetTypeInfo().Assembly
           }
         );
 

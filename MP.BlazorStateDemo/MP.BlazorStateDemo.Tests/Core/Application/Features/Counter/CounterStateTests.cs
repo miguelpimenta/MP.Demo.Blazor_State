@@ -13,7 +13,7 @@ public class CounterStateTests : BaseTest
         : base(aWebAssemblyHost)
     { }
 
-    [Fact]
+
     public async Task IncrementCounterActionExpectedBehavior()
     {
         CounterState.Initialize();
@@ -27,7 +27,7 @@ public class CounterStateTests : BaseTest
             .Be(1);
     }
 
-    [Fact]
+
     public async Task DecrementCounterActionExpectedBehavior()
     {
         CounterState.Initialize();

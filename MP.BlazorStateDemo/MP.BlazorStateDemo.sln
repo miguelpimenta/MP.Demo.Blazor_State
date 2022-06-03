@@ -9,6 +9,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MP.BlazorStateDemo.Tests", 
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MP.BlazorStateDemo.IntegrationTests", "MP.BlazorStateDemo.IntegrationTests\MP.BlazorStateDemo.IntegrationTests.csproj", "{DF05FBEA-7C1E-4758-8F65-A68A288FD2E7}"
 EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MP.BlazorStateDemo.IntegrationTestsAlt", "MP.BlazorStateDemo.IntegrationTestsAlt\MP.BlazorStateDemo.IntegrationTestsAlt.csproj", "{0C3CF3E0-6AC7-4E4C-BEDA-1F87E27F5A38}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -34,6 +36,12 @@ Global
 		{DF05FBEA-7C1E-4758-8F65-A68A288FD2E7}.ReduxDevToolsEnabled|Any CPU.Build.0 = ReduxDevToolsEnabled|Any CPU
 		{DF05FBEA-7C1E-4758-8F65-A68A288FD2E7}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{DF05FBEA-7C1E-4758-8F65-A68A288FD2E7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0C3CF3E0-6AC7-4E4C-BEDA-1F87E27F5A38}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0C3CF3E0-6AC7-4E4C-BEDA-1F87E27F5A38}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0C3CF3E0-6AC7-4E4C-BEDA-1F87E27F5A38}.ReduxDevToolsEnabled|Any CPU.ActiveCfg = Release|Any CPU
+		{0C3CF3E0-6AC7-4E4C-BEDA-1F87E27F5A38}.ReduxDevToolsEnabled|Any CPU.Build.0 = Release|Any CPU
+		{0C3CF3E0-6AC7-4E4C-BEDA-1F87E27F5A38}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0C3CF3E0-6AC7-4E4C-BEDA-1F87E27F5A38}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
