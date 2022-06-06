@@ -75,6 +75,5 @@ var host = builder
     .Build()
     .RunAsync();
 
-
 public partial class Program
 { }
