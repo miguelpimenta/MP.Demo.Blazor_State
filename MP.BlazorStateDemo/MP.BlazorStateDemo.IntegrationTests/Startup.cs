@@ -5,13 +5,12 @@ using MP.BlazorStateDemo.Core.Application.Behaviors;
 using Serilog;
 using System.Reflection;
 
-namespace MP.BlazorStateDemo.IntegrationTestsAlt;
+namespace MP.BlazorStateDemo.IntegrationTests;
 
 public class Startup
 {
     public void ConfigureServices(IServiceCollection services)
     {
-
         Log.Logger = new LoggerConfiguration()
             .CreateLogger();
 

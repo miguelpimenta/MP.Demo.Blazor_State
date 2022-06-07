@@ -2,11 +2,11 @@
 using FluentAssertions;
 using MediatR;
 using MP.BlazorStateDemo.Core.Application.Features.Counter;
-using MP.BlazorStateDemo.IntegrationTestsAlt.Extensions;
+using MP.BlazorStateDemo.IntegrationTests.Extensions;
 using Xunit.Extensions.Ordering;
 using static MP.BlazorStateDemo.Core.Application.Features.Counter.CounterState;
 
-namespace MP.BlazorStateDemo.IntegrationTestsAlt.Core.Application.Features.Counter;
+namespace MP.BlazorStateDemo.IntegrationTests.Core.Application.Features.Counter;
 
 public class CounterStateTests
 {
@@ -17,7 +17,6 @@ public class CounterStateTests
         (Sender, Store) = (sender, store);
 
     private CounterState CounterState => Store.GetState<CounterState>();
-
 
     [Fact]
     public async Task IncrementCounterActionExpectedBehavior()
@@ -46,7 +45,6 @@ public class CounterStateTests
             .Should()
             .Be(-1);
     }
-
 
     [Theory(DisplayName = "Increment Count Multiple Times"), Order(5)]
     [InlineData(5)]
@@ -87,5 +85,4 @@ public class CounterStateTests
             .Should()
             .Be(-clicks);
     }
-
 }

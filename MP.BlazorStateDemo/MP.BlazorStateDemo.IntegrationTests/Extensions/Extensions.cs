@@ -1,4 +1,4 @@
-﻿namespace MP.BlazorStateDemo.IntegrationTestsAlt.Extensions;
+﻿namespace MP.BlazorStateDemo.IntegrationTests.Extensions;
 
 internal static class Extensions
 {

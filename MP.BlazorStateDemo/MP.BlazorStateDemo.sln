@@ -5,11 +5,9 @@ VisualStudioVersion = 17.1.32414.318
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MP.BlazorStateDemo", "MP.BlazorStateDemo\MP.BlazorStateDemo.csproj", "{B0B70095-7DBE-4D4E-A7EC-A4759FE6CC19}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MP.BlazorStateDemo.Tests", "MP.BlazorStateDemo.Tests\MP.BlazorStateDemo.Tests.csproj", "{F4105474-EFC6-4ABF-83C6-E4277C8024D9}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MP.BlazorStateDemo.UnitTests", "MP.BlazorStateDemo.UnitTests\MP.BlazorStateDemo.UnitTests.csproj", "{F4105474-EFC6-4ABF-83C6-E4277C8024D9}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MP.BlazorStateDemo.IntegrationTests", "MP.BlazorStateDemo.IntegrationTests\MP.BlazorStateDemo.IntegrationTests.csproj", "{DF05FBEA-7C1E-4758-8F65-A68A288FD2E7}"
-EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MP.BlazorStateDemo.IntegrationTestsAlt", "MP.BlazorStateDemo.IntegrationTestsAlt\MP.BlazorStateDemo.IntegrationTestsAlt.csproj", "{0C3CF3E0-6AC7-4E4C-BEDA-1F87E27F5A38}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MP.BlazorStateDemo.IntegrationTests", "MP.BlazorStateDemo.IntegrationTests\MP.BlazorStateDemo.IntegrationTests.csproj", "{0C3CF3E0-6AC7-4E4C-BEDA-1F87E27F5A38}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -30,12 +28,6 @@ Global
 		{F4105474-EFC6-4ABF-83C6-E4277C8024D9}.ReduxDevToolsEnabled|Any CPU.Build.0 = Release|Any CPU
 		{F4105474-EFC6-4ABF-83C6-E4277C8024D9}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{F4105474-EFC6-4ABF-83C6-E4277C8024D9}.Release|Any CPU.Build.0 = Release|Any CPU
-		{DF05FBEA-7C1E-4758-8F65-A68A288FD2E7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{DF05FBEA-7C1E-4758-8F65-A68A288FD2E7}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{DF05FBEA-7C1E-4758-8F65-A68A288FD2E7}.ReduxDevToolsEnabled|Any CPU.ActiveCfg = ReduxDevToolsEnabled|Any CPU
-		{DF05FBEA-7C1E-4758-8F65-A68A288FD2E7}.ReduxDevToolsEnabled|Any CPU.Build.0 = ReduxDevToolsEnabled|Any CPU
-		{DF05FBEA-7C1E-4758-8F65-A68A288FD2E7}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{DF05FBEA-7C1E-4758-8F65-A68A288FD2E7}.Release|Any CPU.Build.0 = Release|Any CPU
 		{0C3CF3E0-6AC7-4E4C-BEDA-1F87E27F5A38}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{0C3CF3E0-6AC7-4E4C-BEDA-1F87E27F5A38}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{0C3CF3E0-6AC7-4E4C-BEDA-1F87E27F5A38}.ReduxDevToolsEnabled|Any CPU.ActiveCfg = Release|Any CPU
